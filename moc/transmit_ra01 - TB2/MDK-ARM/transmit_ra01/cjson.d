@@ -1,0 +1,10 @@
+transmit_ra01\cjson.o: ..\cJSON\cJSON.c
+transmit_ra01\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+transmit_ra01\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+transmit_ra01\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+transmit_ra01\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+transmit_ra01\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+transmit_ra01\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+transmit_ra01\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+transmit_ra01\cjson.o: ..\cJSON\cJSON.h
+transmit_ra01\cjson.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

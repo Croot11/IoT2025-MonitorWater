@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"transmit_ra01_tb2\startup_stm32f103xb.o"
+"transmit_ra01_tb2\main.o"
+"transmit_ra01_tb2\stm32f1xx_it.o"
+"transmit_ra01_tb2\stm32f1xx_hal_msp.o"
+"transmit_ra01_tb2\stm32f1xx_hal_gpio_ex.o"
+"transmit_ra01_tb2\stm32f1xx_hal_adc.o"
+"transmit_ra01_tb2\stm32f1xx_hal_adc_ex.o"
+"transmit_ra01_tb2\stm32f1xx_hal.o"
+"transmit_ra01_tb2\stm32f1xx_hal_rcc.o"
+"transmit_ra01_tb2\stm32f1xx_hal_rcc_ex.o"
+"transmit_ra01_tb2\stm32f1xx_hal_gpio.o"
+"transmit_ra01_tb2\stm32f1xx_hal_dma.o"
+"transmit_ra01_tb2\stm32f1xx_hal_cortex.o"
+"transmit_ra01_tb2\stm32f1xx_hal_pwr.o"
+"transmit_ra01_tb2\stm32f1xx_hal_flash.o"
+"transmit_ra01_tb2\stm32f1xx_hal_flash_ex.o"
+"transmit_ra01_tb2\stm32f1xx_hal_exti.o"
+"transmit_ra01_tb2\stm32f1xx_hal_spi.o"
+"transmit_ra01_tb2\stm32f1xx_hal_tim.o"
+"transmit_ra01_tb2\stm32f1xx_hal_tim_ex.o"
+"transmit_ra01_tb2\system_stm32f1xx.o"
+"transmit_ra01_tb2\lora.o"
+"transmit_ra01_tb2\cjson.o"
+--strict --scatter "transmit_ra01_TB2\transmit_ra01_TB2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "transmit_ra01_TB2.map" -o transmit_ra01_TB2\transmit_ra01_TB2.axf

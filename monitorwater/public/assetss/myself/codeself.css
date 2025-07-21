@@ -1,0 +1,18 @@
+.modal-content {
+    background-color: #fefefe; /* Cập nhật màu nền theo màu trang của bạn */
+    color: #333; /* Màu chữ tối hơn để dễ đọc */
+}
+
+.modal-header {
+    background-color: #007bff; /* Màu header xanh giống navbar */
+    color: white;
+}
+
+.modal-footer {
+    background-color: #f1f1f1;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}

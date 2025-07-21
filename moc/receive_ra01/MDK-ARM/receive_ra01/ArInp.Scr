@@ -1,0 +1,23 @@
+--create receive_ra01\receive_ra01.lib
+receive_ra01\startup_stm32f103xb.o
+receive_ra01\main.o
+receive_ra01\stm32f1xx_it.o
+receive_ra01\stm32f1xx_hal_msp.o
+receive_ra01\stm32f1xx_hal_gpio_ex.o
+receive_ra01\stm32f1xx_hal_i2c.o
+receive_ra01\stm32f1xx_hal.o
+receive_ra01\stm32f1xx_hal_rcc.o
+receive_ra01\stm32f1xx_hal_rcc_ex.o
+receive_ra01\stm32f1xx_hal_gpio.o
+receive_ra01\stm32f1xx_hal_dma.o
+receive_ra01\stm32f1xx_hal_cortex.o
+receive_ra01\stm32f1xx_hal_pwr.o
+receive_ra01\stm32f1xx_hal_flash.o
+receive_ra01\stm32f1xx_hal_flash_ex.o
+receive_ra01\stm32f1xx_hal_exti.o
+receive_ra01\stm32f1xx_hal_spi.o
+receive_ra01\stm32f1xx_hal_uart.o
+receive_ra01\system_stm32f1xx.o
+receive_ra01\lora.o
+receive_ra01\clcd_i2c.o
+receive_ra01\cjson.o
